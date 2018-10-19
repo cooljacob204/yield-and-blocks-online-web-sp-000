@@ -1,6 +1,6 @@
 def hello_t(name)
   if name.start_with?("T")
-    yeild
+    yeild(name)
   end
 end
 
