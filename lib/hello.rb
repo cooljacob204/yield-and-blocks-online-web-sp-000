@@ -1,7 +1,7 @@
 def hello_t(name)
   name.each do |i|
     if i.first == "T"
-      yeild(i)
+      yield(i)
     end
   end
 end
