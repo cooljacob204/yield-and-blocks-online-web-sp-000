@@ -4,6 +4,7 @@ def hello_t(name)
       yield(i)
     end
   end
+  name
 end
 
 # call your method here!
