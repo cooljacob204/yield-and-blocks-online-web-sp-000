@@ -1,6 +1,6 @@
 def hello_t(name)
   name.each do |i|
-    if i.first == "T"
+    if i[0] == "T"
       yield(i)
     end
   end
