@@ -1,5 +1,5 @@
 def hello_t(name)
-  if name.start_with?("T")
+  if name.first == "T"
     yeild(name)
   end
 end
