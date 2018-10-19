@@ -1,6 +1,8 @@
 def hello_t(name)
-  if name.first == "T"
-    yeild(name)
+  name.each do |i|
+    if i.first == "T"
+      yeild(i)
+    end
   end
 end
 
