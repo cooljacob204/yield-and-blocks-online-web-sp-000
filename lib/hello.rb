@@ -4,6 +4,9 @@ def hello_t(name)
       yield(i)
     end
     name
+  else
+    puts "Hey! No block was given!"
+  end
 end
 
 # call your method here!
